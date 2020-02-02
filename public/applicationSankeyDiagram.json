@@ -1,0 +1,59 @@
+{
+  "links": [
+    {
+      "source": "Interview",
+      "target": "Awaiting Reply",
+      "value": 1
+    },
+    {
+      "source": "Interview",
+      "target": "No Offer",
+      "value": 1
+    },
+    {
+      "source": "Coding Assessment",
+      "target": "Interview",
+      "value": 1
+    },
+    {
+      "source": "Applications Sent",
+      "target": "Interview",
+      "value": 1
+    },
+    {
+      "source": "Applications Sent",
+      "target": "Coding Assessment",
+      "value": 4
+    },
+    {
+      "source": "Applications Sent",
+      "target": "Rejections",
+      "value": 24
+    },
+    {
+      "source": "Applications Sent",
+      "target": "Awaiting Reply",
+      "value": 100
+    }
+  ],
+  "nodes": [
+    {
+      "name": "No Offer"
+    },
+    {
+      "name": "Interview"
+    },
+    {
+      "name": "Applications Sent"
+    },
+    {
+      "name": "Coding Assessment"
+    },
+    {
+      "name": "Rejections"
+    },
+    {
+      "name": "Awaiting Reply"
+    }
+  ]
+}
