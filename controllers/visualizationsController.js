@@ -38,7 +38,7 @@ const getOdometerData = async(req, res) => {
             // Attatch num days job searching
         }).then(obj => {
             // Started job search on November 26, 2019
-            obj['numDaysJobSearch'] = Math.floor((new Date() - new Date(2019, 11, 26)) / (1000 * 3600 * 24)).toString();
+            obj['numDaysJobSearch'] = Math.floor((new Date(2020, 2, 17) - new Date(2019, 11, 26)) / (1000 * 3600 * 24)).toString();
             return obj;
             // Attatch average apps per day
         }).then(obj => {
